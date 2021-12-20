@@ -49,6 +49,7 @@ body {
 
 .logo {
   width: 11%;
+  fill: white;
 }
 
 .menu {
@@ -317,7 +318,7 @@ body {
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 0.6rem;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .clients {
@@ -347,7 +348,7 @@ body {
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   line-height: 1.6em;
-  color: var(--Very-dark-desaturated-blue);
+  color: var(--Dark-blue);
 }
 
 .about-client {
@@ -381,4 +382,56 @@ body {
 
 .pictures img {
   width: 100%;
+  height: 100%;
+}
+
+/* Bottom Part */
+
+.bottom-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 36vh;
+  background-color: hsl(168, 45%, 48%);
+}
+
+.options {
+  margin-top: 20px;
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  color: var(--Dark-moderate-cyan);
+}
+
+.option {
+  margin: 20px;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  font-size: 1rem;
+}
+
+.option:hover {
+  color: var(--White);
+}
+
+.logo-bottom path {
+  width: 10%;
+  fill: var(--Dark-desaturated-cyan);
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon path:hover {
+  fill: var(--White);
 }
